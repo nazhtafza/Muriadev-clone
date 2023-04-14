@@ -1,0 +1,514 @@
+/* Style for desktop */
+
+
+/* CSS body */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #1C1B1F;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+
+/* Hamburger menu */
+
+.menu-toggle {
+    display: none;
+}
+
+
+/* Add a black background color to the top navigation */
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+
+/* Style the links inside the navigation bar */
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+/* Change the color of links on hover */
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+/* Add an active class to highlight the current page */
+
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+
+/* Hide the link that should open and close the topnav on small screens */
+
+.topnav .icon {
+    display: none;
+}
+
+
+/* Navbar */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+    color: #fff;
+}
+
+nav h1 {
+    font-size: 34px;
+}
+
+nav ul {
+    display: flex;
+    color: white;
+    gap: 1rem;
+    list-style: none;
+    text-decoration: none;
+}
+
+nav ul li {
+    font-size: 18px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.menu-toggle {
+    display: none;
+    cursor: pointer;
+}
+
+
+/* header button login */
+
+.btn-login {
+    background-color: rgb(208, 188, 255);
+    color: #000;
+    padding: 15px 30px;
+    border-radius: 25px;
+    margin-left: 30px;
+    text-decoration: none;
+}
+
+
+/* Hover */
+
+.btn-login:hover {
+    /* background-color: #B08EFF; */
+    background: linear-gradient(118.59deg, #B08EFF 0%, #4E20BB 214.71%);
+    color: #fff;
+}
+
+nav ul li a:hover {
+    color: #B08EFF;
+}
+
+
+/* Heading hero */
+
+.container-header {
+    margin: 10px 100px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.heading {
+    color: #fff;
+    /* margin-right: 50px; */
+}
+
+.heading h1 {
+    font-size: 64px;
+}
+
+.heading p {
+    font-size: 24px;
+}
+
+.pict {
+    width: 526px;
+    height: 526px;
+}
+
+.btn-more {
+    background-color: rgb(208, 188, 255);
+    background-color: rgb(208, 188, 255);
+    color: #000;
+    padding: 15px 30px;
+    border-radius: 25px;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+.btn-more:hover {
+    background: linear-gradient(118.59deg, #B08EFF 0%, #4E20BB 214.71%);
+    color: #fff;
+    transition: 0.3s;
+}
+
+
+/* why muria */
+
+.about h1 {
+    color: #fff;
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+/* Card */
+
+.container .cards {
+    padding: 100px 50px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 50px 0px 50px;
+    gap: 24px;
+}
+
+
+/* Kartu 1 */
+
+.kartu {
+    border-radius: 15px;
+    padding: 20px;
+    background-color: #3B3745;
+}
+
+.kartu h3 {
+    text-align: center;
+    font-size: 24px;
+    color: rgb(208, 188, 255);
+}
+
+.kartu p {
+    color: #fff;
+}
+
+.kartu img {
+    padding: 30px;
+    width: 60px;
+    height: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.kartu:hover {
+    box-shadow: #B08EFF 0px 0px 20px 0px;
+    transition: 0.3s;
+}
+
+
+/* About Muria Dev */
+
+.container-tentang {
+    color: #fff;
+    margin: 60px 100px 0px 100px;
+}
+
+.container-tentang h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.container-tentang p {
+    font-size: 20px;
+    text-align: center;
+}
+
+
+/* Question box */
+
+.question-box {
+    background: linear-gradient(118.59deg, #794ede 0%, #370d99 214.71%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 100px 100px;
+    padding: 50px;
+    border-radius: 25px;
+}
+
+.text-tanya {
+    color: white;
+}
+
+.text-tanya h2 {
+    font-size: 24px;
+}
+
+.btn-kontak {
+    color: black;
+    background-color: rgb(208, 188, 255);
+    padding: 15px 40px;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+.btn-kontak:hover {
+    background: linear-gradient(118.59deg, #B08EFF 0%, #4E20BB 214.71%);
+    color: #fff;
+    transition: 0.3s;
+}
+
+
+/* Footer */
+
+.footer {
+    margin-top: 100px;
+    background-color: #3B3745;
+    padding: 20px 0px;
+    color: #fff;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.footer h2 {
+    font-size: 24px;
+}
+
+.sosmed {
+    margin: 20px 0px;
+}
+
+
+/*Style for tab  */
+
+@media screen and (max-width:768px) {
+    body {
+        background-color: #1C1B1F;
+        font-family: 'Poppins', sans-serif;
+        overflow-x: hidden;
+    }
+    /*Hamburger menu  */
+    .menu-toggle {
+        display: flex;
+        flex-direction: column;
+        height: 20px;
+        margin-left: 465px;
+    }
+    /* Navbar */
+    nav {
+        padding: 18px;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+    }
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    nav h1 {
+        font-size: 48px;
+    }
+    #navbar {
+        display: none;
+        border-radius: 20px;
+        text-align: center;
+        background-color: #3B3745;
+        padding: 20px;
+        width: 100%;
+    }
+    #navbar li a {
+        font-size: 24px;
+        margin-top: 20px;
+    }
+    nav ul .btn-login {
+        display: block;
+        margin: 20px auto;
+        padding: 15px 30px;
+        width: fit-content;
+    }
+    /* header */
+    .container-header {
+        margin: 20px;
+        display: block;
+    }
+    .container-header .heading h1 {
+        font-size: 64px;
+    }
+    .pict {
+        display: none;
+    }
+    /* why muria dev */
+    .container .about {
+        margin: 20px;
+    }
+    .container .cards {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .container .cards .kartu {
+        padding: 37px;
+        width: 100%;
+    }
+    .container .cards .kartu h3 {
+        text-align: start;
+        font-size: 20px;
+    }
+    .container .cards .kartu p {
+        text-align: start;
+        font-size: 16px;
+    }
+    .container .cards .kartu .gambar {
+        width: 68px;
+        height: 68px;
+    }
+    /* About Muria Dev */
+    .container-tentang {
+        margin: 20px;
+    }
+    .container-tentang h1 {
+        font-size: 36px;
+    }
+    .container-tentang p {
+        font-size: 20px;
+        text-align: justify;
+    }
+    /* Question box */
+    .question-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin: 20px 20px 40px 20px;
+        padding: 30px;
+        border-radius: 25px;
+    }
+    .tanya {
+        margin-top: 20px;
+    }
+}
+
+
+/* Style for mobile */
+
+@media screen and (max-width:360px) {
+    body {
+        background-color: #1C1B1F;
+        font-family: 'Poppins', sans-serif;
+        overflow-x: hidden;
+    }
+    /* Hamburger */
+    .menu-toggle {
+        display: flex;
+    }
+    /* Navbar */
+    nav {
+        align-items: center;
+        padding: 20px;
+        color: #fff;
+    }
+    nav h1 {
+        font-size: 24px;
+    }
+    nav ul {
+        display: none;
+    }
+    /* Heading hero */
+    .container-header {
+        margin: 20px;
+        display: block;
+    }
+    .pict {
+        display: none;
+    }
+    .container-header .heading h1 {
+        font-size: 38px;
+    }
+    .heading p {
+        font-size: 18px;
+    }
+    /* Why Muria Dev */
+    .container .about h1 {
+        font-size: 24px;
+        margin: 50px 20px;
+    }
+    .container .cards {
+        display: flex;
+        padding: 10px;
+        margin: 20px;
+        flex-wrap: wrap;
+        /* width: 100%; */
+    }
+    .container .cards .kartu {
+        margin-top: 20px;
+        /* width: 100%; */
+    }
+    .container .cards .kartu h3 {
+        font-size: 18px;
+        text-align: center;
+    }
+    .container .cards .kartu p {
+        font-size: 14px;
+        text-align: center;
+    }
+    .container .cards .gambar {
+        align-items: center;
+    }
+    /* About Muriadev */
+    .container-tentang {
+        margin: 50px 20px;
+    }
+    .container-tentang h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+    .container-tentang p {
+        font-size: 18px;
+        text-align: justify;
+    }
+    /*Question Box  */
+    .question-box {
+        background: linear-gradient(118.59deg, #794ede 0%, #370d99 214.71%);
+        display: block;
+        align-items: center;
+        margin: 50px 20px;
+        padding: 40px;
+        border-radius: 10px;
+    }
+    .text-tanya h2 {
+        font-size: 32px;
+    }
+    .text-tanya p {
+        font-size: 14px;
+    }
+    .tanya {
+        margin-top: 20px;
+        align-items: center;
+    }
+    .btn-kontak {
+        padding: 8px 20px;
+        border-radius: 30px;
+        font-size: 16px;
+    }
+}
