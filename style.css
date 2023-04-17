@@ -418,21 +418,45 @@ nav ul li a:hover {
         font-family: 'Poppins', sans-serif;
         overflow-x: hidden;
     }
-    /* Hamburger */
+    /*Hamburger menu  */
     .menu-toggle {
         display: flex;
+        flex-direction: column;
+        height: 20px;
+        margin-left: 100px;
     }
     /* Navbar */
     nav {
-        align-items: center;
-        padding: 20px;
+        padding: 18px;
         color: #fff;
+        display: flex;
+        flex-direction: column;
+    }
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
     nav h1 {
-        font-size: 24px;
+        font-size: 36px;
     }
-    nav ul {
+    #navbar {
         display: none;
+        border-radius: 20px;
+        text-align: center;
+        background-color: #3B3745;
+        padding: 20px;
+        width: 100%;
+    }
+    #navbar li a {
+        font-size: 18px;
+        margin-top: 25px;
+    }
+    nav ul .btn-login {
+        display: block;
+        margin: 20px auto;
+        padding: 15px 30px;
+        width: fit-content;
     }
     /* Heading hero */
     .container-header {
