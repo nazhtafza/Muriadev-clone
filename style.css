@@ -312,7 +312,7 @@ nav ul li a:hover {
         display: flex;
         flex-direction: column;
         height: 20px;
-        margin-left: 570px;
+        margin-left: 520px;
     }
     /* Navbar */
     nav {
@@ -386,7 +386,7 @@ nav ul li a:hover {
     }
     /* About Muria Dev */
     .container-tentang {
-        margin: 20px 20px 50px 20px;
+        margin: 20px 20px;
     }
     .container-tentang h1 {
         font-size: 36px;
@@ -409,11 +409,6 @@ nav ul li a:hover {
     .tanya {
         margin-top: 20px;
     }
-    .tanya .btn-kontak {
-        margin-top: 20px;
-        font-size: 20px;
-        border-radius: 25px;
-    }
 }
 
 
@@ -431,7 +426,7 @@ nav ul li a:hover {
         flex-direction: column;
         height: 20px;
         /* justify-content: space-between; */
-        margin-left: 300px;
+        margin-left: 150px;
     }
     /* Navbar */
     nav {
