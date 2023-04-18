@@ -301,7 +301,7 @@ nav ul li a:hover {
 
 /*Style for tab  */
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:884px) {
     body {
         background-color: #1C1B1F;
         font-family: 'Poppins', sans-serif;
@@ -312,7 +312,7 @@ nav ul li a:hover {
         display: flex;
         flex-direction: column;
         height: 20px;
-        margin-left: 465px;
+        margin-left: 570px;
     }
     /* Navbar */
     nav {
@@ -360,7 +360,7 @@ nav ul li a:hover {
     }
     /* why muria dev */
     .container .about {
-        margin: 20px;
+        margin: 10px;
     }
     .container .cards {
         display: flex;
@@ -368,27 +368,29 @@ nav ul li a:hover {
         justify-content: space-evenly;
     }
     .container .cards .kartu {
-        padding: 37px;
+        padding: 10px 57px;
         width: 100%;
     }
     .container .cards .kartu h3 {
         text-align: start;
-        font-size: 20px;
+        font-size: 24px;
+        font-weight: 500;
     }
     .container .cards .kartu p {
         text-align: start;
-        font-size: 16px;
+        font-size: 18px;
     }
     .container .cards .kartu .gambar {
-        width: 68px;
-        height: 68px;
+        width: 75px;
+        height: 75px;
     }
     /* About Muria Dev */
     .container-tentang {
-        margin: 20px;
+        margin: 20px 20px 50px 20px;
     }
     .container-tentang h1 {
         font-size: 36px;
+        text-align: center;
     }
     .container-tentang p {
         font-size: 20px;
@@ -400,19 +402,24 @@ nav ul li a:hover {
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
-        margin: 20px 20px 40px 20px;
+        margin: 30px 20px 40px 20px;
         padding: 30px;
         border-radius: 25px;
     }
     .tanya {
         margin-top: 20px;
     }
+    .tanya .btn-kontak {
+        margin-top: 20px;
+        font-size: 20px;
+        border-radius: 25px;
+    }
 }
 
 
 /* Style for mobile */
 
-@media screen and (max-width:360px) {
+@media screen and (max-width:576px) {
     body {
         background-color: #1C1B1F;
         font-family: 'Poppins', sans-serif;
@@ -423,7 +430,8 @@ nav ul li a:hover {
         display: flex;
         flex-direction: column;
         height: 20px;
-        margin-left: 100px;
+        /* justify-content: space-between; */
+        margin-left: 300px;
     }
     /* Navbar */
     nav {
@@ -449,7 +457,7 @@ nav ul li a:hover {
         width: 100%;
     }
     #navbar li a {
-        font-size: 18px;
+        font-size: 24px;
         margin-top: 25px;
     }
     nav ul .btn-login {
@@ -470,11 +478,11 @@ nav ul li a:hover {
         font-size: 38px;
     }
     .heading p {
-        font-size: 18px;
+        font-size: 24px;
     }
     /* Why Muria Dev */
     .container .about h1 {
-        font-size: 24px;
+        font-size: 32px;
         margin: 50px 20px;
     }
     .container .cards {
@@ -489,11 +497,11 @@ nav ul li a:hover {
         /* width: 100%; */
     }
     .container .cards .kartu h3 {
-        font-size: 18px;
+        font-size: 24px;
         text-align: center;
     }
     .container .cards .kartu p {
-        font-size: 14px;
+        font-size: 18px;
         text-align: center;
     }
     .container .cards .gambar {
@@ -504,11 +512,11 @@ nav ul li a:hover {
         margin: 50px 20px;
     }
     .container-tentang h1 {
-        font-size: 24px;
+        font-size: 32px;
         text-align: center;
     }
     .container-tentang p {
-        font-size: 18px;
+        font-size: 20px;
         text-align: justify;
     }
     /*Question Box  */
@@ -524,15 +532,16 @@ nav ul li a:hover {
         font-size: 32px;
     }
     .text-tanya p {
-        font-size: 14px;
+        font-size: 18px;
     }
     .tanya {
         margin-top: 20px;
         align-items: center;
     }
     .btn-kontak {
-        padding: 8px 20px;
+        padding: 12px 20px;
         border-radius: 30px;
-        font-size: 16px;
+        font-size: 20px;
+        margin-top: 20px;
     }
 }
